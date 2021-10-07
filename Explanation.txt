@@ -1,0 +1,10 @@
+   As documented in the python file, getTransactionInfo.py provides transaction
+information for a given transaction id. A proxy is created using the Testnet
+port and the bitcoin.conf configuration file we created for bitcoind. There is
+a default transaction id provided that corresponds to the first testcoin that
+I recieved from the faucet bitcoinfaucet.uo1.net. However, when run,
+getTransactionInfo.py can take an input of a transaction id to gather information
+for other transactions associated with my wallet; only transactoins associated
+with my wallet have the information stored and accessible to me. Next, there 
+is a check done to see whether the default id or a user inputted id should
+be used. The inforamtion is gathered and then printed to the screen.
